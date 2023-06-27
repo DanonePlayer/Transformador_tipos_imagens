@@ -21,7 +21,7 @@ class Tela:
         self.button_escolher_arquivos = tk.Button(self.frm_esquerdo, text="Selecionar Arquivos        ", overrelief=tk.RIDGE, bg="#D1AE6C", command=self.arquivos, fg="#000000", width=178, height=30, image=self.photo_Vector, compound = tk.RIGHT)
         self.button_escolher_arquivos.place(x=140, y=190)
 
-        self.photo = tk.PhotoImage(file="Imagens/logo-policia-federal-200px 1.png")
+        self.photo = tk.PhotoImage(file="Imagens/logo.png")
         self.lbl_photo = tk.Label(self.frm_esquerdo, image=self.photo, bg="#E0E0E0")
         self.lbl_photo.place(x=168, y=30)
 
